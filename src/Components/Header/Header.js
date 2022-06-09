@@ -11,7 +11,7 @@ const Header = () => {
         <header>
             <div className='container header__container'>
                 <h2 className='hello'>Hello I'm</h2>
-                <h1>Naimur Rahaman Emon</h1>
+                <h1 className='name'>Naimur Rahaman Emon</h1>
                 <h5 className='text-light'>Graphic Designer & Mern Stack Developer</h5>
                 <div className='cta'>
                     <a href={CV} download className='btn'>Download CV</a>
