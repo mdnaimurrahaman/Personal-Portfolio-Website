@@ -35,7 +35,7 @@ const Testimonials = () => {
           </div>
           <h5 className="client__name">Melissa Montiel</h5>
           <small className="client__review">
-          With Thrive’s help, we were able to increase the functionality of our website dramatically while cutting our costs. Our website is much more easy to use, has tons of more features than before and is incredibly easy to maintain. We could not be more happy with our new website! Thanks Thrive!
+          With Thrive’s help, we were able to increase the functionality of our website dramatically while cutting our costs. Our website is much more easy to use, has tons of more features than before and is incredibly easy to maintain. We could not be more happy with our new website! Thanks Thrive!The end result was a website that is attractive.
           </small>
         </SwiperSlide>
         <SwiperSlide className="testimonial">
@@ -53,7 +53,7 @@ const Testimonials = () => {
           </div>
           <h5 className="client__name">Aaron Miller</h5>
           <small className="client__review">
-          We re-did our website twice in a 12 month period. There was no comparison between the first company and Thrive. Professional, Creative, Attentive to Detail, Excellent Communication…If I had contracted with Thrive the first time I would not have had to do it twice.
+          We re-did our website twice in a 12 month period. There was no comparison between the first company and Thrive. Professional, Creative, Attentive to Detail, Excellent Communication…If I had contracted with Thrive the first time I would not have had to do it twice.The end result was a website that is attractive.
           </small>
         </SwiperSlide>
         <SwiperSlide className="testimonial">
@@ -62,7 +62,7 @@ const Testimonials = () => {
           </div>
           <h5 className="client__name">Tony Farah</h5>
           <small className="client__review">
-          Our site is beautiful! It is easy to navigate. The support has been remarkable for WordPress; if I don’t understand something, or can’t accomplish a task, Thrive is very responsive and they lead me in the correct way. Thrive is an extremely talented web design company.
+          Our site is beautiful! It is easy to navigate. The support has been remarkable for WordPress; if I don’t understand something, or can’t accomplish a task, Thrive is very responsive and they lead me in the correct way. Thrive is an extremely talented web design company.The end result was a website that is attractive.
           </small>
         </SwiperSlide>
       </Swiper>
