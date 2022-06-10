@@ -1,0 +1,155 @@
+.skills__container{
+    row-gap: 0;
+}
+
+.skills__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.skills__icon, 
+.skills__arrow{
+    font-size: 2rem;
+    color: var(--color-primary);
+}
+.skills__icon{
+    margin-right: 0.75rem;
+}
+
+.skills__title {
+    font-size: 0.95rem;
+}
+
+.skills__subtitle{
+    font-size: 0.7rem;
+    color: var(--color-light);
+    
+}
+.skills__arrow{
+    margin-left: auto;
+    transition: .4s;
+}
+
+.skills__titles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.skills__number{
+    font-size: 0.7rem;
+    color: var(--color-light);
+    
+}
+
+.skills__bar,
+.skills__percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+.skills__bar{
+    background-color: var(--color-light);
+    margin-bottom: 2rem;
+}
+.skills__list{
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+}
+.skills__percentage{
+    display:block;
+    background-color: var(--color-primary);
+}
+.skills__html{
+    width: 90%;
+}
+.skills__css{
+    width: 80%;
+}
+.skills__js{
+    width: 60%;
+}
+.skills__react{
+    width: 80%;
+}
+.skills__bootstrap{
+    width: 90%;
+}
+.skills__tailwind{
+    width: 75%;
+}
+.skills__nodejs{
+    width: 50%;
+}
+.skills__firebase{
+    width: 90%;
+}
+.skills__mongodb{
+    width: 50%;
+}
+.skills__strife{
+    width: 50%;
+}
+
+
+/* ----------------design------------- */
+.skills__logo{
+    width: 95%;
+}
+.skills__brand{
+    width: 95%;
+}
+.skills__product{
+    width: 90%;
+}
+.skills__print{
+    width: 95%;
+}
+.skills__website{
+    width: 90%;
+}
+.skills__publishing{
+    width: 90%;
+}
+.skills__art{
+    width: 80%;
+}
+
+.skills__close .skills__list{
+    height: 0;
+    overflow: hidden;
+}
+.skills__open .skills__list.active{
+    height: max-content;
+    margin-bottom: 3rem;
+}
+.skills__open .skills__arrow{
+    transform: rotate(-180deg);
+}
+
+.skills__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+
+/* --------------- Media queries (Medium Devices)------------- */
+@media screen and (max-width: 1024px){
+   .skills__container{
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+  }
+  /* --------------- Media queries (small Devices)------------- */
+  @media screen and (max-width: 600px){
+    .skills__container{
+        grid-template-columns: 1fr;
+        padding-right: 2rem;
+    }
+  }
+
+
+/* nav a.active {
+    background: var(--color-bg);
+    color: var(--color-primary);
+} */

@@ -80,4 +80,8 @@ padding: 2.5rem 1.5rem 1.5rem 1.5rem;
     .name{
         font-size: 1.5rem;
     }
+    .me img{
+        width: 100%;
+    }
+   
   }
