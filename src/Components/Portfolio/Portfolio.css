@@ -25,6 +25,7 @@
     border-radius: .8rem;
     justify-self: center;
     margin-bottom: 1rem;
+    overflow: hidden;
 }
 .portfolio__btn{
     display: flex;
