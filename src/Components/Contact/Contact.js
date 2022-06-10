@@ -1,14 +1,38 @@
-import React from 'react';
+
 import {MdOutlineMailOutline} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
+import emailjs from 'emailjs-com';
 import './Contact.css'
+import { useRef } from 'react';
+import React from 'react';
+
+// import { ToastContainer, toast } from 'react-toastify';
+
+
+
 
 const Contact = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_p0uqrhz', 'template_axsy2uj', form.current, 'XbpBt79Jxb9dTKq3-')
+          .then((result) => {
+            e.target.reset();
+            // toast('Your message successfully send')
+
+              console.log(result.text);
+          }, (error) => {
+
+              console.log(error.text);
+          });
+      };
     return (
         <section id='contact'>
            <h5>Get In Touch</h5>
            <h2>Contact Me</h2>
+
+           {/* <ToastContainer/> */}
 
            <div className="container contact__container">
             <div className="contact__options">
@@ -31,7 +55,7 @@ const Contact = () => {
                     <a href="https://api.whatsapp.com/send?phone+8801402723889"target="_blank">Send a message</a>
                 </article> */}
             </div>
-            <form action=''>
+            <form  ref={form} onSubmit={sendEmail}>
                     <input type="text" name='name' placeholder='Your Full Name' required />
                     <input type="email" name='email' placeholder='Your Email' required />
                     <textarea name="message" rows="4" placeholder='Your Message' required></textarea>
