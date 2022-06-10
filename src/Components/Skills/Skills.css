@@ -54,7 +54,7 @@
 }
 .skills__list{
     row-gap: 1.5rem;
-    padding-left: 2.7rem;
+    /* padding-left: 2.7rem; */
 }
 .skills__percentage{
     display:block;
@@ -130,7 +130,7 @@
 .skills__container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 2rem;
+    gap: 4.5rem;
 }
 
 
@@ -144,7 +144,7 @@
   @media screen and (max-width: 600px){
     .skills__container{
         grid-template-columns: 1fr;
-        padding-right: 2rem;
+        
     }
   }
 
