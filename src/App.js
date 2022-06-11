@@ -7,6 +7,7 @@ import Header from './Components/Header/Header';
 import Navbar from './Components/Navbar/Navbar';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Service from './Components/Service/Service';
+import Footer from './Components/Shared/Footer/Footer';
 import Skills from './Components/Skills/Skills';
 import Testimonials from './Components/Testimonials/Testimonials';
 
@@ -23,6 +24,7 @@ function App() {
       <Portfolio/>
       <Testimonials/>
       <Contact/>
+      <Footer/>
       
     </>
   );
