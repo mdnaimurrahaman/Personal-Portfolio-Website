@@ -1,6 +1,7 @@
 
 import './App.css';
 import About from './Components/About/About';
+import Brand from './Components/Brand/Brand';
 import Contact from './Components/Contact/Contact';
 import Experience from './Components/Experience/Experience';
 import Header from './Components/Header/Header';
@@ -19,6 +20,7 @@ function App() {
       <Navbar/>
       <About/>
       <Experience/>
+      <Brand/>
       <Skills/>
       <Service/>
       <Portfolio/>

@@ -1,0 +1,32 @@
+.Brand__container{
+    margin-top: 5rem;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background: var(--color-primary-variant);
+    margin-bottom: 5rem;
+}
+.brand__items{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 4rem;
+    align-items: center;
+    justify-items: center;
+}
+.brand__items img{
+    width: 150px;
+}
+/* .brand__item{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 4rem;
+} */
+
+ /* --------------- Media queries (small Devices)------------- */
+ @media screen and (max-width: 600px){
+    .brand__items{
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+  }

@@ -2,6 +2,7 @@ import React from "react";
 import img from '../../../src/Assets/Ex-bg.png'
 import "./Experience.css";
 
+
 const Experience = () => {
   return (
     <section id="experience">
@@ -39,7 +40,6 @@ const Experience = () => {
               </small>
             </article>
           </div>
-          
         </div>
 
         <div className="exp__detail">
@@ -49,6 +49,7 @@ sector for the last 3 years. In 2019, I achieved the creative designer award fro
 paradise it institutions. I enjoy creative designing & I am interested in learning new technology.</h5>
 <small>I have a strong foundation in graphic and interactive design, and an interest in user centred branding and visual systems, understanding their potential within digital spaces.</small>
         </div>
+
       </div>
     </section>
   );
