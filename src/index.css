@@ -38,9 +38,9 @@ body{
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  /* background-image: url(../src/Assets/pinpng.png);
+  background-image: url(../src/Assets/pinpng.png);
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 
 }
 
