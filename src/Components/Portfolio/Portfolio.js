@@ -11,11 +11,11 @@ import './Portfolio.css';
 const Portfolio = () => {
     return (
         <section id='portfolio'>
-            <h5>My Recent Work</h5>
-            <h2>Portfolio</h2>
+            <h5 data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="400">My Recent Work</h5>
+            <h2 data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="600">Portfolio</h2>
 
             <div className="container portfolio__container">
-                <article className='portfolio__item'>
+                <article className='portfolio__item' data-aos="zoom-out-up" data-aos-duration="1500" data-aos-delay="1000">
                     <div className='portfolio__image'>
                         <img src={image01} alt="" srcset="" />
                     </div>
@@ -29,7 +29,7 @@ const Portfolio = () => {
                                 w'/></a>
                             </div>
                 </article>
-                <article className='portfolio__item'>
+                <article className='portfolio__item' data-aos="zoom-out-up" data-aos-duration="1500" data-aos-delay="1000">
                     <div className='portfolio__image'>
                         <img src={image02} alt="" srcset="" />
                     </div>
@@ -43,7 +43,7 @@ const Portfolio = () => {
                                 w'/></a>
                             </div>
                 </article>
-                <article className='portfolio__item'>
+                <article className='portfolio__item' data-aos="zoom-out-up" data-aos-duration="1500" data-aos-delay="1000">
                     <div className='portfolio__image'>
                         <img src={image03} alt="" srcset="" />
                     </div>
@@ -57,7 +57,7 @@ const Portfolio = () => {
                                 w'/></a>
                             </div>
                 </article>
-                <article className='portfolio__item'>
+                <article className='portfolio__item' data-aos="zoom-out-up" data-aos-duration="1500" data-aos-delay="1000">
                     <div className='portfolio__image'>
                         <img src={image1} alt="" srcset="" />
                     </div>
@@ -71,7 +71,7 @@ const Portfolio = () => {
                                 w'/></a>
                             </div>
                 </article>
-                <article className='portfolio__item'>
+                <article className='portfolio__item' data-aos="zoom-out-up" data-aos-duration="1500" data-aos-delay="1000">
                     <div className='portfolio__image'>
                         <img src={image2} alt="" srcset="" />
                     </div>
@@ -85,7 +85,7 @@ const Portfolio = () => {
                                 w'/></a>
                             </div>
                 </article>
-                <article className='portfolio__item'>
+                <article className='portfolio__item' data-aos="zoom-out-up" data-aos-duration="1500" data-aos-delay="1000">
                     <div className='portfolio__image'>
                         <img src={image3} alt="" srcset="" />
                     </div>

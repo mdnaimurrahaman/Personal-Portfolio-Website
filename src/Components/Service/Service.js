@@ -10,10 +10,10 @@ import './Service.css'
 const Service = () => {
     return (
         <section id='service'>
-            <h5> What I Offer</h5>
-            <h2> Services</h2>
+            <h5 data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="400"> What I Offer</h5>
+            <h2 data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="600"> Services</h2>
             <div className="container services__container">
-                <div className="services__content">
+                <div className="services__content" data-aos="flip-up" data-aos-duration="2000" data-aos-delay="800">
                     <div>
                         <BsGrid1X2 className='about-icon'/>
                         <h3 className='services__title'>Ui/Ux <br/>Design</h3>
@@ -24,7 +24,7 @@ const Service = () => {
                         arrow'/>
                     </div>
                 </div>
-                <div className="services__content">
+                <div className="services__content" data-aos="flip-up" data-aos-duration="2000" data-aos-delay="1000">
                     <div>
                         <BsCodeSlash className='about-icon'/>
                         <h3 className='services__title'>Frontend <br/>Development</h3>
@@ -35,7 +35,7 @@ const Service = () => {
                         arrow'/>
                     </div>
                 </div>
-                <div className="services__content">
+                <div className="services__content" data-aos="flip-up" data-aos-duration="2000" data-aos-delay="1200">
                     <div>
                         <BsPencil className='about-icon'/>
                         <h3 className='services__title'>Graphic <br/>Design</h3>
@@ -46,7 +46,7 @@ const Service = () => {
                         arrow'/>
                     </div>
                 </div>
-                <div className="services__content">
+                <div className="services__content" data-aos="flip-up" data-aos-duration="2000" data-aos-delay="1400">
                     <div>
                         <SiAltiumdesigner className='about-icon'/>
                         <h3 className='services__title'>Logo Design <br/>Specialist</h3>

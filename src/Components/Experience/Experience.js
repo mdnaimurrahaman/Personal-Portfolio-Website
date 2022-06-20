@@ -8,7 +8,7 @@ const Experience = () => {
     <section id="experience">
       {/* <h2>Experience</h2> */}
       <div className="container experience__container">
-        <div className="experience__content">
+        <div className="experience__content" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
           <img src={img} alt="" srcset="" />
           <div  className="ex-items">
             <article className="ex__item">
@@ -42,7 +42,7 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className="exp__detail">
+        <div className="exp__detail" data-aos="zoom-in-left" data-aos-duration="1500" data-aos-delay="400">
             <small>/ GRAPHIC DESIGNER</small>
             <h5> I have been working successfully Graphic Design
 sector for the last 3 years. In 2019, I achieved the creative designer award from

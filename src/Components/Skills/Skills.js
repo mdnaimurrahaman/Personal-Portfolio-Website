@@ -9,12 +9,11 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <section id="skills">
-      <h5> My Technical Level</h5>
-      <h2> Skills</h2>
-
+        <h5 data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="600"> My Technical Level</h5>
+        <h2 data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="800"> Skills</h2>
       <div className="container skills__container">
         
-          <div className="skills__content skills__open">
+          <div className="skills__content skills__open" data-aos="fade-right" data-aos-duration="2500" data-aos-delay="1000">
             <div className="skills__header">
               <BsBraces className="skills__icon" />
               <div>
@@ -85,7 +84,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="skills__content skills__open">
+          <div className="skills__content skills__open" data-aos="zoom-out-up" data-aos-duration="2500" data-aos-delay="1000">
             <div className="skills__header">
               <AiOutlineCloudServer className="skills__icon" />
               <div>
@@ -137,7 +136,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="skills__content skills__open">
+          <div className="skills__content skills__open" data-aos="fade-left" data-aos-duration="2500" data-aos-delay="1000">
             <div className="skills__header">
               <MdOutlineDesignServices className="skills__icon" />
               <div>

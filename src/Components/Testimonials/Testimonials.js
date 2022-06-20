@@ -18,10 +18,10 @@ import 'swiper/css/pagination';
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review From Clients</h5>
-      <h2>Testimonials</h2>
+      <h5 data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="400">Review From Clients</h5>
+      <h2 data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="600">Testimonials</h2>
 
-      <Swiper className="container testimonials__container"
+      <Swiper className="container testimonials__container" data-aos="zoom-in-down" data-aos-duration="2000" data-aos-delay="900"
       modules={[Navigation, Pagination]}
       spaceBetween={40}
       slidesPerView={1}
