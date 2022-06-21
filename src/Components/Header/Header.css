@@ -1,7 +1,7 @@
 header{
     height: 100vh;
     padding-top: 7rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .header__container {
@@ -50,7 +50,7 @@ margin-top: 2rem;
 /* border-radius: 12rem 12rem 2rem 2rem ; */
 overflow: hidden;
 /* padding: 2rem 1.5rem 1.5rem 1.6rem; */
-padding: 1rem;
+padding: 0.8rem;
 }
 
 .scroll__down {

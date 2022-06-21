@@ -27,8 +27,8 @@ const Header = () => {
                     <a href='#contact'className='btn btn-primary' data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="1000">Let's Talk</a>
                 </div>
                 <div className='header__socials'>
-                    <a href="https://linkedin.com" target="_blank"><BsLinkedin/></a>
-                    <a href="https://github.com" target="_blank"><BsGithub/></a>
+                    <a href="https://www.linkedin.com/in/mdnaimurrahaman/" target="_blank"><BsLinkedin/></a>
+                    <a href="https://github.com/mdnaimurrahaman" target="_blank"><BsGithub/></a>
                     <a href="https://dribbble.com" target="_blank"><FiDribbble/></a>
                 </div>
                 <div className='me' >
